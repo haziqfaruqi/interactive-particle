@@ -1,16 +1,4 @@
 {
   "version": 2,
-  "name": "particle-system",
-  "builds": [
-    {
-      "src": "particles.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/particles.html"
-    }
-  ]
+  "name": "particle-system"
 }
